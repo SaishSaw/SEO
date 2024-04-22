@@ -41,3 +41,4 @@ However, amidst our exploration, we encountered two pivotal challenges:
 To surmount these hurdles, we embraced the innovative approach of sentence transformers. By harnessing these transformers, we could encapsulate the entire context of a sentence within its embedding, offering a holistic perspective.
 
 For our sentence embeddings, we leveraged the pre-trained model "all-MiniLM-L6-v2" from Hugging Face. With these embeddings in hand, we seamlessly implemented PCA (Principal Component Analysis) to condense dimensionality while preserving 80% of the data's variance.
+https://github.com/SaishSaw/SEO/blob/main/tsne.png
