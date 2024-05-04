@@ -47,11 +47,11 @@ For our sentence embeddings, we leveraged the pre-trained model "all-MiniLM-L6-v
 ✨In the realm of machine learning, the challenge often doesn't end at training models - it extends to the crucial decision of which model to deploy. Let me share a personal learning experience that encapsulates this journey.
 During an exploration of SEO data, I embarked on data visualization to grasp the nuances of the dataset. An intriguing observation surfaced - the attribute 'type' in the dataset, which categorizes websites, seemed to play a pivotal role. This led me to hypothesize that 'type' could be a significant feature for model training.
 
-![Type of website][Type of website.png]
+![alt text][https://github.com/SaishSaw/SEO/blob/main/Type%20of%20website.png]
 
 As the journey unfolded, my hypothesis held its ground. The importance of 'type' was underscored when I calculated the feature importance score during model training. But then, the plot thickened - which model should be the final contender for deployment?
 The Decision Tree and Random Forest models were neck-and-neck, both considering 'type' as a key decision-making feature. The Decision Tree model boasted an impressive F1 score of 91%, outperforming the Random Forest's 85%. But was the higher score the sole deciding factor?
 ✨Not quite. Random Forest, with its ensemble approach, builds on different subsets of features and combines their predictions. This process assigns varying scores to the features across different decision trees. Interestingly, 'type' emerged as a significant feature in this process, hinting at the robustness of Random Forest's decision-making.
 Though the F1 score leaned towards the Decision Tree model, the robustness of the Random Forest's feature selection process tilted the scales in its favor. It was a reminder that model selection isn't just about scores; it's about understanding the underlying mechanisms and making informed decisions.
 ✨Remember, these are my personal learnings and not a recommendation for direct model deployment. But I hope my journey inspires you to delve deeper into your model selection processes.
-![Feature importance][Feature mportance.png]
+![alt text][https://github.com/SaishSaw/SEO/blob/main/Feature%20importance.png]
